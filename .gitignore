@@ -1,0 +1,79 @@
+## --- Fichiers binaires et dossiers de build ---
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+win32/
+publish/
+dist/
+
+## --- Fichiers générés par Visual Studio ---
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.dbmdl
+*.jfm
+
+## --- Fichiers générés par Rider / ReSharper ---
+.idea/
+*.DotSettings.user
+
+## --- Fichiers générés par VS Code ---
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.db
+
+## --- Dossiers temporaires ---
+*.tmp
+*.temp
+*.log
+*.vs/
+*.vscode/
+*~*
+
+## --- Paquets NuGet ---
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+artifacts/
+
+# Autoriser packages.config
+!packages.config
+
+## --- Fichiers de config sensibles ---
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+## --- Cache et backups ---
+*.bak
+*.orig
+
+## --- Tests / coverage ---
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## --- Système ---
+.DS_Store
+Thumbs.db
+
+## --- Publication docker ---
+**/docker-compose.override.yml
+**/docker-compose*.yaml
+**/docker-volume/
+
+## --- JetBrains Rider cache ---
+.idea/
+*.iml
+
+## --- Autres dossiers inutiles ---
+node_modules/
+wwwroot/
