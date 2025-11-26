@@ -25,7 +25,7 @@ public abstract class Employe
 
     public abstract double CalculerPrime(double valeur);
 
-    public virtual void AugmenterSalaire(double montant) // virtual car on effectue la même modification (+=) à montant
+    public virtual void AugmenterSalaire(double montant) // virtual car sera utilisé tel quel par les employés
     {
         // Vérifier qu'on ne tente pas de diminuer le salaire !
         if (SalaireMensuel < 1) throw new ArgumentOutOfRangeException(nameof(SalaireMensuel));
